@@ -479,18 +479,42 @@
     <string name="importAllSimEntries" msgid="1503181169636198673">"Alle importieren"</string>
     <string name="importingSimContacts" msgid="7374056215462575769">"SIM-Kontakte werden importiert"</string>
     <string name="importToFDNfromContacts" msgid="2130620207013368580">"Aus Kontakten importieren"</string>
-  <string-array name="tty_mode_entries">
+    <string-array name="tty_mode_entries">
     <item msgid="512950011423868021">"TTY aus"</item>
     <item msgid="4781215771530681384">"TTY HCO"</item>
     <item msgid="5659212685488676933">"TTY VCO"</item>
     <item msgid="1113703196326500239">"TTY (vollständig)"</item>
-  </string-array>
+    </string-array>
     <string name="eri_text_label" msgid="4326942349915331461">"ERI-Text"</string>
     <string name="dtmf_tones_title" msgid="3866923093113274152">"DTMF-Töne"</string>
     <string name="dtmf_tones_summary" msgid="3351820372864020331">"Länge der DTMF-Töne einstellen"</string>
-  <string-array name="dtmf_tone_entries">
+    <string-array name="dtmf_tone_entries">
     <item msgid="899650777817315681">"Normal"</item>
     <item msgid="2883365539347850535">"Lang"</item>
-  </string-array>
+    </string-array>
     <string name="network_message" msgid="5673682885938122239">"Netzwerknachricht"</string>
+
+<!-- CYANOGEN STRINGS -->
+    <string name="advanced_setting">Erweiterte Einstellungen</string>
+    <string name="vibrate_outgoing">Bei Antwort vibrieren</string>
+    <string name="vibrate_outgoing_sum">Vibriere wenn Anruf angenommen wurde.</string>
+    <string name="vibrate_45">Vibriere alle 45 Sekunden</string>
+    <string name="vibrate_45_sum">Vibriere alle 45 Sekunden während ausgehender Anrufe.</string>
+    <string name="vibrate_hangup">Vibriere bei Auflegen</string>
+    <string name="vibrate_hangup_sum">Vibriere wenn Anruf beendet wurde.</string>
+    <string name="screen_awake">Bildschirm anlassen</string>
+    <string name="screen_awake_sum">Bildschirm wird länger angelassen als normal bei eingehendem Anruf.</string>
+    <string name="led_notify_call">LED Benachrichtigung</string>
+    <string name="led_notify_call_sum">LED blinkt bei verpasstem Anruf.</string>
+    <string name="led_show_organ">Zeige Organisation</string>
+    <string name="led_show_organ_sum">Organisation wird angezeigt auf Anrufanzeige</string>
+    <string name="vibrate_call_waiting">Vibriere bei Anklopfen</string>
+    <string name="vibrate_call_waiting_sum">Vibriere bei Anklopfen.</string>
+    <string name="return_home">Erzwinge Rückkehr zu Anrufliste</string>
+    <string name="return_home_sum">Erzwinge Rückkehr zu Anrufliste nach Gesprächsende.</string>
+    <string name="menu_addBlackList">Hinzufügen zur Black List</string>
+    <string name="black_list">Black List</string>
+    <string name="black_list_sum">Anruf von Black List Eintrag wird abgelehnt.</string>
+    <string name="add_black">Nummer hinzufügen</string>
+    <string name="remove_black">Lösche %s von Liste</string>
 </resources>
