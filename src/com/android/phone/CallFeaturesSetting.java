@@ -52,6 +52,7 @@ import android.preference.PreferenceManager;
 import android.preference.PreferenceCategory;
 import android.preference.Preference.OnPreferenceClickListener;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
