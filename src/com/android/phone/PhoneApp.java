@@ -1562,6 +1562,13 @@ setScreenTimeout(mSettings.mScreenAwake ? ScreenTimeoutDuration.DEFAULT : Screen
                         }
                         abortBroadcast();
                     }
+		// Krazy Krivda - added headset hangup ability by (needs PhoneUtil change too)
+		// press wiredheadset for mute (above) long press to hangup (below)                
+		  else if (event.getRepeatCount() == 2){
+		   boolean consumed = PhoneUtils.handleHeadsetHook(phone, 1); // overloaded functions
+		   if (consumed) {
+			abortBroadcast();  // BUG: Media player starts sometimes if mod is used to hang up
+		   }	
                 } else if (phone.getState() != Phone.State.IDLE) {
                     // As for any DOWN events other than the initial press, we consume
                     // (and ignore) those too if the phone is in use.  (Otherwise the

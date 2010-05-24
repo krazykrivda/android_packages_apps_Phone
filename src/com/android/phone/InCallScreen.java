@@ -714,7 +714,9 @@ mForceTouch = mSettings.mForceTouch;
 
         // Disable the status bar "window shade" the entire time we're on
         // the in-call screen.
-        NotificationMgr.getDefault().getStatusBarMgr().enableExpandedView(false);
+	// KrazyKrivda changed to 'true' - with good proximity sensors, no reason
+	// to leave false that I can see
+        NotificationMgr.getDefault().getStatusBarMgr().enableExpandedView(true);
 
         // Listen for broadcast intents that might affect the onscreen UI.
         registerReceiver(mReceiver, new IntentFilter(Intent.ACTION_HEADSET_PLUG));
