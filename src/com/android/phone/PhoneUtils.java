@@ -1984,11 +1984,11 @@ static Connection getConnection(Phone phone, Call call) {
         } else {
             Connection c = phone.getForegroundCall().getLatestConnection();
             if (c != null && !PhoneNumberUtils.isEmergencyNumber(c.getAddress())) {
-		hangup(phone);
-       	    }
+                hangup(phone);
+            }
 	}
-		   return true;
-    }
+        return true;
+    }    
 	   
     // End Hangup Headset option mod
 
